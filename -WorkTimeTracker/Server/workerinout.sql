@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 05, 2026 at 11:23 PM
+-- Generation Time: Jun 20, 2026 at 01:14 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -45,7 +45,11 @@ INSERT INTO `attendance` (`id`, `employee_id`, `entry_time`, `exit_time`) VALUES
 (12, '213471634', '2026-06-05 20:47:44', '2026-06-05 23:27:42'),
 (13, '213471634', '2026-06-05 23:27:36', '2026-06-05 23:27:42'),
 (14, '2134', '2026-06-06 00:07:33', '2026-06-06 00:07:37'),
-(15, '112', '2026-06-06 00:12:04', NULL);
+(15, '112', '2026-06-06 00:12:04', NULL),
+(16, '111', '2026-06-06 00:26:58', '2026-06-06 00:27:04'),
+(17, '111', '2026-06-06 00:27:00', '2026-06-06 00:27:04'),
+(18, '123456789', '2026-06-15 13:59:18', '2026-06-15 14:00:20'),
+(19, '000122', '2026-06-20 14:09:26', '2026-06-20 14:10:29');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +69,7 @@ ALTER TABLE `attendance`
 -- AUTO_INCREMENT for table `attendance`
 --
 ALTER TABLE `attendance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
